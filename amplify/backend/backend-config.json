@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "reactgooglesignin8d3825128d382512": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
