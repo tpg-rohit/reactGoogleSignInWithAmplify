@@ -1,6 +1,10 @@
 import { Auth, Hub } from "aws-amplify";
 import React, { useEffect, useState } from "react";
 import awsConfiguration from './aws-exports';
+
+awsConfiguration.oauth.redirectSignIn = 'https://master.d2lukk2zwhfkke.amplifyapp.com/';
+awsConfiguration.oauth.redirectSignOut = 'https://master.d2lukk2zwhfkke.amplifyapp.com/';
+
 Auth.configure(awsConfiguration);
 
 function App() {
